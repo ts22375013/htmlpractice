@@ -1,0 +1,60 @@
+.form-contents{
+    /*幅の設定*/
+    width: 600px;
+    /* 黒色の枠を作成 */
+    border: 1px solid black;
+     /*ブロックを真ん中調整*/
+    margin: 50px auto;
+}
+
+.login-form{
+    /*幅の設定*/
+    width: 300px;
+    /*ブロックを真ん中調整*/
+    margin: 50px auto;
+}
+
+.control-group{
+     /*下に余白を入れてバランス調整*/
+     margin-bottom: 30px;
+}
+/*ボタンとリンクを真ん中に持ってくる*/
+.control-position{
+    text-align: center;
+
+}
+
+.control-link{
+       /*横並びにする*/
+       display: flex;
+       /*隙間を作る*/
+       gap: 0 100px;
+       /*中央に寄せる*/
+       justify-content: center;
+}
+
+footer{
+    text-align: right;
+}
+
+/*ボタンの装飾*/
+.btn{
+    width: 200px;
+    padding: 5px 0;
+    /* 背景色を変更 */
+    background-color: #a0d6f8;
+    /*文字色の色を変更*/
+    color: white;
+    /* ボタンを丸っこくする */
+    border-radius: 10px;
+}
+
+h1{
+    /*タイトル文字を真ん中に持ってくる*/
+    text-align: center;
+}
+
+h2{
+    /*Loginという文字を真ん中に持ってくる*/
+    text-align: center;
+}
