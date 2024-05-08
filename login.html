@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン画面</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header>
+        <h1>情報サイト - ログイン画面</h1>
+        <hr><!--区切り線-->
+    </header>
+
+    <main>
+        <section class="form-contents">
+            <form class="login-form" action="#" method="post"><!-- 送信post -->
+                <h2>ログイン</h2>
+                <div class="control-group">
+                    <label class="login-field-icon" for="login-name">ユーザー名</label>
+                    <input type="text" class="login-field" placeholder="ログインユーザー名" id="login-name">
+                </div>
+                <div class="control-group">
+                    <label class="login-field-icon" for="login-pass">パスワード</label>
+                    <input type="password" class="login-field" placeholder="パスワード" id="login-pass">
+                </div>
+                <div class="control-group control-position">
+                    <button class="btn">ログイン</button>
+                </div>
+
+                <div class="control-link">
+                    <nobr>
+                        <a class="login-link" href="#">パスワードを忘れた場合</a>
+                    </nobr>
+                    <nobr>
+                        <a class="login-create" href="register.html">新規アカウント作成</a>
+                    </nobr>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 5月8日</p>
+    </footer>
+
+</body>
+</html>
